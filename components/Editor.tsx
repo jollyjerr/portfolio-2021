@@ -4,7 +4,21 @@ import React from "react";
 
 const code = `
 () => {
-    const [phrase, setPhrase] = React.useState("Software Engineer")
+    const [phrase, setPhrase] = React.useState("Software Engineer");
+
+    const phrases = [
+        "asdjflsdkajflksdfsdf",
+        "and more stuff",
+        "Software Engineer"
+    ]
+
+    React.useEffect(() => {
+        setInterval(() => {
+            setPhrase(phrases[Math.floor(Math.random() * phrases.length)]);
+        }, 2000);
+    }, []);
+
+
     return (
         <div>
             {phrase}
