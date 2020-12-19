@@ -1,8 +1,12 @@
+import Toolbar from "../components/Toolbar";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div className="container mx-auto">
-      Yo just testing where this is
+    <div>
+      <Toolbar />
+      <main className="container mx-auto">This is me</main>
     </div>
   );
-}
+};
+
+export default Home;

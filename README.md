@@ -1,3 +1,3 @@
-# Climbing-ipsum
+New personal website
 
-Learning Next and tailwind
+WIP
