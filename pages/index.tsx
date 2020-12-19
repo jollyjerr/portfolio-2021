@@ -1,6 +1,6 @@
 import Editor from "../components/Editor";
 import Footer from "../components/Footer";
-import Image from "next/image";
+// import Image from "next/image";
 import React from "react";
 import Toolbar from "../components/Toolbar";
 
@@ -37,12 +37,12 @@ const Home = () => {
               humblebrag everyday carry PBR&B. Organic twee wolf umami venmo
               fanny pack.
             </div>
-            <Image
+            {/* <Image
               src="/photo.jpg"
               alt="A great picture of me"
               width={500}
               height={500}
-            />
+            /> */}
           </div>
         </div>
       </section>
