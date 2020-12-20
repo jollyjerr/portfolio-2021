@@ -10,17 +10,16 @@ type Props = {
 
 const Toolbar = ({ about, code, music, contact }: Props) => {
   return (
-    <nav className="absolute top-0 right-0 h-16 w-166 p-10">
-      <div>
+    <nav className="md:absolute md:top-0 md:right-0 md:h-16 md:w-36 md:p-10">
+      <div className="flex justify-evenly flex-wrap">
         <button
           //   onClick={() => scroll({ ref: about, smooth: true })}
-          className="block text-lg text-gray-500"
+          className="md:block text-lg text-gray-500"
         >
           About
         </button>
-        <button className="block text-lg text-gray-500">Code</button>
-        <button className="block text-lg text-gray-500">Music</button>
-        <button className="block text-lg text-gray-500">Contact</button>
+        <button className="md:block text-lg text-gray-500">Code</button>
+        <button className="md:block text-lg text-gray-500">Contact</button>
       </div>
     </nav>
   );
