@@ -26,12 +26,13 @@ const Home = () => {
                 to use in this section
               </div>
               <div className="w-1/2 pl-20 pt-40">
-                <Image
+                <img src="/photo.png" alt="A great picture of me!" />
+                {/* <Image
                   src="/photo.png"
                   alt="A great picture of me"
                   width={500}
                   height={500}
-                />
+                /> */}
               </div>
             </div>
           </div>
