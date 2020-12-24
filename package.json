@@ -12,16 +12,18 @@
     "autoprefixer": "^10.0.2",
     "next": "10.0.3",
     "postcss": "^8.1.10",
+    "prism-react-renderer": "^1.1.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-feather": "^2.0.9",
     "react-live": "^2.2.3",
     "react-reveal": "^1.2.2",
-    "react-scroll-to": "^3.0.0-beta.6"
+    "react-vertical-timeline-component": "^3.3.1"
   },
   "devDependencies": {
     "@types/node": "^14.14.9",
     "@types/react": "^17.0.0",
+    "@types/react-vertical-timeline-component": "^3.0.0",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.2.1",
     "tailwindcss": "^2.0.1",

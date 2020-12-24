@@ -1,6 +1,7 @@
-import { LiveEditor, LiveError, LivePreview, LiveProvider } from "react-live";
+import { LiveEditor, LivePreview, LiveProvider } from "react-live";
 
 import React from "react";
+import duotoneDark from "prism-react-renderer/themes/nightOwl";
 
 const code = `
 () => {
@@ -33,7 +34,11 @@ const Editor = () => {
     <LiveProvider code={code}>
       <div className="flex flex-wrap">
         <LivePreview className="md:w-1/2 xs:w-40 h-60" />
-        <LiveEditor className="md:w-1/2 xs:w-40 md:mt-36 shadow-2xl rounded-md border-2 border-gray-500" />
+        <LiveEditor
+          className="md:w-1/2 xs:w-40 md:mt-36 shadow-md rounded-md border-2 border-gray-500"
+          // style={{ fontFamily: "Nunito" }}
+          theme={duotoneDark}
+        />
       </div>
     </LiveProvider>
   );

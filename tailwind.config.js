@@ -10,14 +10,19 @@ module.exports = {
       xl: "1440px",
     },
     colors: {
-      gray: colors.coolGray,
-      blue: colors.lightBlue,
-      red: colors.rose,
-      pink: colors.fuchsia,
+      title: "#021628",
+      gray: "#5c5b5c",
+      blue: "#799BEF",
+      black: "#243330",
+      red: "#7e2649",
+      orange: "#e37e48",
     },
+    backgroundColor: (theme) => ({
+      ...theme("colors"),
+    }),
     fontFamily: {
-      normal: ["IBM Plex Sans", "sans-serif"],
-      title: ["IBM Plex Sans", "serif"],
+      normal: ["Nunito", "sans-serif"],
+      title: ["Nunito", "serif"],
     },
     extend: {
       spacing: {
