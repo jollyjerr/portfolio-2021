@@ -1,4 +1,4 @@
-import Editor from "../components/Editor";
+import DynamicEditor from "../components/DynamicEditor";
 import Fade from "react-reveal/Fade";
 import Footer from "../components/Footer";
 import React from "react";
@@ -24,7 +24,7 @@ const Home = () => {
             Jeremiah Tabb
           </h1>
         </div>
-        <Editor />
+        <DynamicEditor />
       </section>
       <Fade
         left
