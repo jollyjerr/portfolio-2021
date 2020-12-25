@@ -36,7 +36,7 @@ const Home = () => {
         left
         innerRef={(arg: React.MutableRefObject<any>) => (about.current = arg)}
       >
-        <section className="min-h-screen mt-12 mb-12 p-6 rounded-md">
+        <section className="min-h-screen mt-12 mb-12 p-6 rounded-md relative">
           <div className="text-gray-50">
             <h1 className="text-8xl font-title text-title">About Me</h1>
             <div className="flex flex-row flex-wrap">
@@ -75,7 +75,7 @@ const Home = () => {
         left
         innerRef={(arg: React.MutableRefObject<any>) => (code.current = arg)}
       >
-        <section className="min-h-screen mt-12 mb-12 p-6 rounded-md">
+        <section className="min-h-screen mt-12 mb-12 p-6 rounded-md relative">
           <div className="text-8xl text-gray-50 mb-8">
             <h1 className="font-title text-title">My Work</h1>
           </div>
