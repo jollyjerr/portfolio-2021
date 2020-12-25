@@ -1,6 +1,7 @@
 import DynamicEditor from "../components/DynamicEditor";
 import Fade from "react-reveal/Fade";
 import Footer from "../components/Footer";
+import Head from "next/head";
 import React from "react";
 import Timeline from "../components/Timeline";
 import Toolbar from "../components/Toolbar";
@@ -17,6 +18,11 @@ const Home = () => {
       className="container mx-auto px-2 relative pt-6 pb-6 text-black"
       ref={home}
     >
+      <Head>
+        <title>Jeremiah Tabb</title>
+        <meta name="description" content="Software Engineer | Composer | 🌱" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Toolbar about={about} code={code} contact={contact} />
       <section className="min-h-screen p-6 rounded-md">
         <div className="text-8xl">
